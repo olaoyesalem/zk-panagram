@@ -1,0 +1,46 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Foundry
+cache/
+out/
+broadcast/
+lib/
+
+# Noir
+target/
+proofs/
+*.proof
+
+# Generated verification files
+vk
+vk_hash
+*.vk
+
+# Build / generated metadata
+metadata/
+*.json.metadata
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
